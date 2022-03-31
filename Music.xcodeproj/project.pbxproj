@@ -52,8 +52,8 @@
 		DF203B4D27CFCF3600EC4100 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				DF4D426827D9F05300D62FA6 /* Info.plist */,
 				DF203B5427CFCF3700EC4100 /* Preview Content */,
+				DF4D426827D9F05300D62FA6 /* Info.plist */,
 				DF203B5227CFCF3700EC4100 /* Assets.xcassets */,
 				DF203B4E27CFCF3600EC4100 /* MusicApp.swift */,
 				DF203B5027CFCF3600EC4100 /* ContentView.swift */,
@@ -85,6 +85,8 @@
 			dependencies = (
 			);
 			name = Music;
+			packageProductDependencies = (
+			);
 			productName = Music;
 			productReference = DF203B4B27CFCF3600EC4100 /* Music.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +115,8 @@
 				Base,
 			);
 			mainGroup = DF203B4227CFCF3600EC4100;
+			packageReferences = (
+			);
 			productRefGroup = DF203B4C27CFCF3600EC4100 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,11 +272,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Music/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,11 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Music/Preview Content\"";
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Music/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
